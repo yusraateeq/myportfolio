@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Portfolio</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-red-50">
+
+    <!-- Navbar -->
+    <nav class="bg-rose-900 shadow-md">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Left Side: Logo -->
+                <div class="text-2xl font-bold text-rose-100">
+                    <a href="index.html"> Yusra Ateeq</a>
+                </div>
+                <!-- Right Side: Links -->
+                <div class="hidden md:flex space-x-10">
+                    <a href="#home" class="text-rose-50 hover:text-rose-100  [font-size:18px;]">Home</a>
+                    <a href="#about" class="text-rose-50 hover:text-rose-100 [font-size:18px;]">About</a>
+                    <a href="#experience" class="text-rose-50 hover:text-rose-100 [font-size:18px;]">Experience</a>
+                    <a href="#projects" class="text-rose-50 hover:text-rose-100 [font-size:18px;]">Project</a>
+                    <a href="#contact" class="text-rose-50 hover:text-rose-100 [font-size:18px;]">Contact</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6 text-rose-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="#home" class="block py-2 px-4 text-sm text-rose-50 hover:text-rose-100">Home</a>
+            <a href="#about" class="block py-2 px-4 text-sm text-rose-50 hover:text-rose-100">About</a>
+            <a href="#experience" class="block py-2 px-4 text-sm text-rose-50 hover:text-rose-100">Experience</a>
+            <a href="#projects" class="block py-2 px-4 text-sm text-rose-50 hover:text-rose-100">Project</a>
+            <a href="#contact" class="block py-2 px-4 text-sm text-rose-50 hover:text-rose-100">Contact</a>
+        </div>
+    </nav>
+
+
+    <section id="home" class="md:flex justify-evenly items-center gap-36; smd:flex-wrap-reverse;">
+        <div class=" mt-20 md:ml-0 smm:ml-10 smd:ml-2">
+            <h1 class="mb-3 mt-4 md:text-left smm:text-6xl smd:text-5xl font-bold text-rose-800">Hi, I,am Yusra</h1>
+            <h2 class="xl:text-5xl md:text-left smm:text-4xl smd:text-3xl mb-2 [font-weight:400;]">and I'm a passionate
+            </h2>
+            <h2 class="md:text-left smm:[font-size:40px;] smd:[font-size:30px;]  [font-weight:600;] mb-5">Web Developer
+            </h2>
+            <div class=" md:justify-start smd:flex gap-4 mb-6 ">
+                <a href="https://www.facebook.com/profile.php?id=61552980219340&mibextid=ZbWKwL" target="_blank"><img
+                        src="facebook.png" alt="" class="w-12 "></a>
+                <a href="https://www.instagram.com/ateeq.yusra?igsh=OWR6Y3lwZjlyZ3Nh" target="_blank"><img
+                        src="instagram.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/yusra-ateeq-00797a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"><img src="linkdin.png" alt=""></a>
+
+            </div>
+            <div>
+                <div
+                    class="bg-rose-900 smm:w-80 text-center smm:p-3 smd:p-2 smd:w-56 text-white rounded-full smm:[font-size:18px;] ">
+                    <a href="yusra resume.pdf" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class=" mt-20">
+            <img src="girl.jpeg" alt=""
+                class="x md:[width:380px;] md:[height:380px;] md:ml-0 sm:[width:600px] sm:[height:600px;] smm::ml-8 smm:[width:480px;] smm:[height:480px;] smd:rounded-full smmd:[width:400px;] smmd:[height:400px;] smd:ml-2 smd:[width:300px;] smd:[height:300px;] ">
+        </div>
+    </section>
+
+
+
+    <section id="about" class="mt-48 bg-rose-100 pt-14 pb-14">
+        <h2 class="text-center text-6xl font-bold mb-2 text-rose-900">About Me</h2>
+        <h3 class="text-center mb-10 text-2xl">Know about me</h3>
+        <div
+            class="xl:grid grid-cols-[40%_auto] gap-4 items-center justify-center md:grid grid-cols-[32% auto]; smmd:p-10 smd:p-2">
+            <img src="girl.jpeg" alt=""
+                class="sm:[width:400px] sm:[height:400px;] [border-radius:30px;] smd:block ml-auto mr-auto smd:mb-10 smmd:[width:350px] smmd:[height:350px;] smd:[width:300px] smd:[height:300px;] ">
+            <div class="lg:grid grid-cols-2 md:gap-8 ">
+                <div class=" border-4 border-rose-800 lg:p-8 text-center [border-radius:30px;] lg:mb-0 smd:mb-4">
+                    <img src="laptop.png" alt="" class="block ml-auto mr-auto mb-2 ">
+                    <div>
+                        <h2 class="text-2xl font-semibold">Experience</h2>
+                        <h3 class="[font-size:16px] font-medium">1+ years</h3>
+                        <h4 class="[font-size:16px] font-medium">Web Developement</h4>
+                    </div>
+                </div>
+                <div class="  border-4 border-rose-800 lg:p-8 text-center [border-radius:30px;]">
+                    <img class="block ml-auto mr-auto mb-2" src="user.png" alt="">
+                    <h2 class="text-2xl font-semibold">Education</h2>
+                    <h3 class="[font-size:16px] font-medium">M. Computer Science</h3>
+                    <h4 class="[font-size:16px] font-medium">I. Commerce </h4>
+                </div>
+
+                <p
+                    class="col-span-2 lg:[word-spacing:3px;] smmd:lg:text-lg font-sans font-medium smd:mt-4 lg:mt-0 smd:sm text-sm">
+                    Hello, my name is Yusra Ateeq. I
+                    am 18 years old. I'm a professional Web Developer with more than 1 years experience. I love to try
+                    something new for my project. In my +1 years career, I took a part in 2 companies and help them
+                    growing up. Being a professional Web Developer is my dream, so I enjoy finishing design and try
+                    something new for my project..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="mt-28 pt-14 pb-14">
+        <h2 class="text-center text-6xl font-bold mb-2 text-rose-900">Experience</h2>
+        <h3 class=" text-2xl text-center md:mb-0 smd:mb-10">Explore me</h3>
+        <div class="md:grid grid-cols-2 justify-center items-center lg:p-28 md:pt-10 md:p-6 smd:p-2 lg:gap-16 md:gap-4">
+
+            <div
+                class="ml-18 border-4 border-rose-800 smmd:p-8 smd:[padding:4px;] [border-radius:30px;] md:mb-0 smd:mb-10">
+                <h3 class="text-center text-2xl font-semibold mb-8 text-rose-950 smmd:mt-0 smd:mt-8">Frontend
+                    Developement</h3>
+                <div class="grid grid-cols-2 ml-0 list-none gap-10">
+                    <div class="flex gap-2">
+                        <div class="">
+                        </div>
+                        <div>
+                            <div class="flex gap-2 mb-8">
+                                <div>
+                                    <img src="check.png" alt="" class="w-6 ">
+                                </div>
+                                <div>
+                                    <li class=" font-bold">HTML</li>
+                                    <h5 class="">Experienced</h5>
+                                </div>
+                            </div>
+                            <div class="flex gap-2 mb-8">
+                                <div>
+                                    <img src="check.png" alt="" class="w-6 ">
+                                </div>
+                                <div>
+                                    <li class=" font-bold">CSS</li>
+                                    <h5 class="">Experienced</h5>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <div>
+                                    <img src="check.png" alt="" class="w-6 ">
+                                </div>
+                                <div>
+                                    <li class=" font-bold">Java Script</li>
+                                    <h5 class="">Basic</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div>
+                            <img src="check.png" alt="" class="w-6 mb-14">
+                            <img src="check.png" alt="" class="w-6 mb-14">
+                            <img src="check.png" alt="" class="w-6">
+                        </div>
+                        <div>
+                            <div>
+                                <li class=" font-bold">Bootstrap</li>
+                                <h5 class="mb-8">Experienced</h5>
+                            </div>
+                            <div>
+
+                                <li class="font-bold">Wordpress</li>
+                                <h5 class="mb-8">Experienced</h5>
+
+                            </div>
+                            <div>
+
+                                <li class="font-bold">PHP</li>
+                                <h5 class="mb-8">Basic</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="ml-18 border-4 border-rose-800 smmd:p-8 smd:[padding:4px;] [border-radius:30px;] ">
+                <h3 class="text-center text-2xl font-semibold mb-8 text-rose-950 smmd:mt-0 smd:mt-8">Backend
+                    Developement</h3>
+                <div class="grid grid-cols-2 ml-2 list-none gap-10 ">
+                    <div class="flex gap-2 p">
+                        <div>
+                            <img src="check.png" alt="" class="w-6 mb-14">
+                            <img src="check.png" alt="" class="w-6 mb-14">
+                        </div>
+                        <div>
+                            <div>
+                                <li class=" font-bold">Node.js</li>
+                                <h5 class="mb-8">Basic</h5>
+                            </div>
+                            <div>
+
+                                <li class="font-bold ">React.js</li>
+                                <h5 class="mb-8 pb-20">Basic</h5>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div>
+                            <img src="check.png" alt="" class="w-6 mb-14">
+                            <img src="check.png" alt="" class="w-6 mb-14">
+                        </div>
+                        <div>
+                            <div>
+                                <li class=" font-bold">MySQL</li>
+                                <h5 class="mb-8">Basic</h5>
+                            </div>
+
+                            <div>
+
+                                <li class="font-bold">Typescript</li>
+                                <h5 class="mb-8">Basic</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="mt-10 bg-rose-100 pt-14 pb-14">
+        <h2 class="text-center text-7xl font-bold mb-2 text-rose-900">Projects</h2>
+        <h3 class=" text-2xl text-center mb-10">Browse my Recent</h3>
+        <div class="mmd:grid grid-cols-3 smmd:p-10 smd:p-2 gap-6 ">
+            <div class=" border-4 border-rose-800 p-4 [border-radius:30px;] mmd:mb-0 smd:mb-6">
+                <img src="bmi.JPG" alt=""
+                    class="mmd:[width:350px] mmd:[height:350px;] sm:[width:800px] sm:[height:600px;] sm:block ml-auto mr-auto [border-radius:30px;] ">
+                <h2 class="mmd:text-2xl smm:text-5xl smd:text-4xl font-bold text-center mt-4 mmd:mb-4 smd:mb-12">Project
+                    One</h2>
+                <div class="mmd:gap-5 smmd:gap-3 flex items-center justify-evenly">
+                    <a href="https://github.com/yusraateeq/BMI-calculator.git" target="_blank"><button
+                            class="border-2 border-rose-800 mmd:pt-2 mmd:pb-2 mmd:pl-8 mmd:pr-8 md:pt-4  md:pb-4 md:pl-20 md:pr-20 smmd:pt-2 smmd:pb-2 smmd:pl-10 smmd:pr-10 smd:pt-2 smd:pb-2 smd:pl-8 smd:pr-8 [border-radius:30px;]"
+                            type="button">Github</button></a>
+                    <a href="https://bmi-calculator-tau-beige.vercel.app/" target="_blank"> <button
+                            class="border-2 border-rose-800 mmd:pt-2 mmd:pb-2 mmd:pl-8 mmd:pr-8 md:pt-4  pb-4 pl-20 pr-20 smmd:pt-2 smmd:pb-2 smmd:pl-10 smmd:pr-10 smd:pt-2 smd:pb-2 smd:pl-8 smd:pr-8 [border-radius:30px;]"
+                            type="button">Live</button></a>
+                </div>
+            </div>
+
+            <div class=" border-4 border-rose-800 p-4 [border-radius:30px;] mmd:mb-0 smd:mb-6">
+                <img src="age.JPG" alt=""
+                    class="mmd:[width:350px] mmd:[height:350px;] sm:[width:800px] sm:[height:600px;] sm:block ml-auto mr-auto [border-radius:30px;] ">
+                <h2 class="mmd:text-2xl smm:text-5xl smd:text-4xl font-bold text-center mt-4 mmd:mb-4 smd:mb-12 mmd:mt-0 ">Project
+                    Two</h2>
+                <div class="mmd:gap-5 smmd:gap-3 flex items-center justify-evenly">
+                    <a href="https://github.com/yusraateeq/age-calculator.git" target="_blank"><button
+                            class="border-2 border-rose-800 mmd:pt-2 mmd:pb-2 mmd:pl-8 mmd:pr-8 md:pt-4  md:pb-4 md:pl-20 md:pr-20 smmd:pt-2 smmd:pb-2 smmd:pl-10 smmd:pr-10 smd:pt-2 smd:pb-2 smd:pl-8 smd:pr-8 [border-radius:30px;]"
+                            type="button">Github</button></a>
+                    <a href="https://age-calculator-six-chi.vercel.app/" target="_blank"> <button
+                            class="border-2 border-rose-800 mmd:pt-2 mmd:pb-2 mmd:pl-8 mmd:pr-8 md:pt-4  pb-4 pl-20 pr-20 smmd:pt-2 smmd:pb-2 smmd:pl-10 smmd:pr-10 smd:pt-2 smd:pb-2 smd:pl-8 smd:pr-8 [border-radius:30px;]"
+                            type="button">Live</button></a>
+                </div>
+            </div>
+
+
+            <div class=" border-4 border-rose-800 p-4 [border-radius:30px;] ">
+                <img src="todo.JPG" alt=""
+                    class="mmd:[width:350px] mmd:[height:350px;] sm:[width:800px] sm:[height:600px;] sm:block ml-auto mr-auto [border-radius:30px;] ">
+                <h2 class="mmd:text-2xl smm:text-5xl smd:text-4xl font-bold text-center mt-4 mmd:mb-4 smd:mb-12">Project
+                    Three</h2>
+                <div class="mmd:gap-5 smmd:gap-3 flex items-center justify-evenly">
+                    <a href="https://github.com/yusraateeq/T0-Do-List.git" target="_blank"><button
+                            class="border-2 border-rose-800 mmd:pt-2 mmd:pb-2 mmd:pl-8 mmd:pr-8 md:pt-4  md:pb-4 md:pl-20 md:pr-20 smmd:pt-2 smmd:pb-2 smmd:pl-10 smmd:pr-10 smd:pt-2 smd:pb-2 smd:pl-8 smd:pr-8 [border-radius:30px;]"
+                            type="button">Github</button></a><a href="https://t0-do-list-sigma.vercel.app/" target="_blank"> <button
+                            class="border-2 border-rose-800 mmd:pt-2 mmd:pb-2 mmd:pl-8 mmd:pr-8 md:pt-4  pb-4 pl-20 pr-20 smmd:pt-2 smmd:pb-2 smmd:pl-10 smmd:pr-10 smd:pt-2 smd:pb-2 smd:pl-8 smd:pr-8 [border-radius:30px;]"
+                            type="button">Live</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="mt-36 pt-14 pb-14">
+        <h2 class="text-center smmd:text-6xl smd:text-5xl font-bold mb-2 text-rose-900">Contact Me</h2>
+        <h3 class=" text-2xl text-center mb-10">Get in Touch</h3>
+        <div class="">
+            <div class="smm:flex items-center justify-center border-4 border-rose-800 p-4 [border-radius:30px;] smmd:mb-36 smd:mb-20 xl:ml-80 xl:mr-80 mmd:ml-60 mmd:mr-60 sm:ml-20 sm:mr-20 smm:ml-6 smm:mr-6 smmd:ml-16 smmd:mr-16">
+                <div class="flex items-center gap-4 ">
+                    <img src="mail.png" alt="" class="w-6 ">
+                    <a href="mailto:yumnaateeq88@gmail.com" class="mr-4 font-bold">yumnaateeq88@gmail.com</a>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="linkdin.png" alt="" class="w-8 smm:ml-10 smm:mt-0 smd:mt-4">
+                    <a href="https://www.linkedin.com/in/yusra-ateeq-00797a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="font-bold mr-10 smd:mt-4 smm:mt-0">linkedIn</a>
+                </div>
+            </div>
+            <div class=" smd:flex sm:space-x-10 smmd:space-x-5 smd:space-x-3 justify-center items-start">
+                <a href="#home" class="text-rose-900 hover:text-rose-950 font-bold smmd:[font-size:18px;] smd:[font-size:14px;]">Home</a>
+                <a href="#about" class="text-rose-900 hover:text-rose-950 font-bold smmd:[font-size:18px;] smd:[font-size:14px;]">About</a>
+                <a href="#experience" class="text-rose-900 hover:text-rose-950 font-bold smmd:[font-size:18px;] smd:[font-size:14px;]">Experience</a>
+                <a href="#projects" class="text-rose-900 hover:text-rose-950 font-bold smmd:[font-size:18px;] smd:[font-size:14px;]">Project</a>
+                <a href="#contact" class="text-rose-900 hover:text-rose-950 font-bold smmd:[font-size:18px;] smd:[font-size:14px;]">Contact</a>
+            </div>
+            <p class="text-center mt-10">
+                @ Yusra Ateeq | All Right Reserved
+            </p>
+        </div>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        const btn = document.querySelector('button.mobile-menu-button');
+        const menu = document.querySelector('.mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
